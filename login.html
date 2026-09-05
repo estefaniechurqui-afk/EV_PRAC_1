@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Login - Lucy Fast Food</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h2>Iniciar Sesion</h2>
-    <form>
-        <label for="user">Usuario:</label>
-        <input type="text" id="user" name="user"><br><br>
-        <label for="pass">Contrasena:</label>
-        <input type="password" id="pass" name="pass"><br><br>
-        <button type="submit">Entrar</button>
-    </form>
+<body class="login-body">
+    <header>
+        <h1>Lucy Fast Food</h1>
+    </header>
+
+    <main class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form>
+            <label for="user">Usuario:</label><br>
+            <input type="text" id="user" name="user" required><br><br>
+
+            <label for="pass">Contraseña:</label><br>
+            <input type="password" id="pass" name="pass" required><br><br>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 Lucy Fast Food</p>
+    </footer>
 </body>
 </html>
